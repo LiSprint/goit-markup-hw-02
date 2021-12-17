@@ -26,8 +26,8 @@ body {
 /* Хедер */
 
 .logo {
-  font-family: Raleway;
-  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--primary-black-color);
@@ -79,7 +79,7 @@ body {
 
 .hero-btn {
   font-family: inherit;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -95,7 +95,7 @@ body {
 }
 
 .features-item-header {
-  font-weight: bold;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-black-color);
@@ -105,18 +105,15 @@ body {
   line-height: 1.71;
 }
 
-/* Чем мы занимаемся */
+/* Чем мы занимаемся и Наша команда */
 
 .services-header,
 .team-header {
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--primary-black-color);
 }
-
-/* Наша команда */
 
 .team {
   background-color: var(--light-backgroung-color);
@@ -131,7 +128,7 @@ body {
 }
 
 .team-name-position {
-  font-weight: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -145,17 +142,14 @@ body {
 }
 
 .footer-logo {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--primary-white-color);
 }
 
 .footer-item > a {
-  font-weight: normal;
-  font-size: 14px;
   font-style: normal;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
@@ -198,7 +192,6 @@ body {
 }
 
 .project-name {
-  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
